@@ -25,3 +25,11 @@ token.json
 credentials.json
 .gmail_processed_ids.json
 Inbox/
+Done/
+Needs_Action/
+Logs/
+Pending_Approval/
+Approved/
+Rejected/
+In_Progress/
+Plans/
