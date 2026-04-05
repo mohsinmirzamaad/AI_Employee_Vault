@@ -1,15 +1,8 @@
----
-name: create-plan
-description: Create a structured plan file in the Plans folder for a given task or objective with YAML frontmatter and step-by-step checkboxes.
----
-
-# Create Plan
-
-Generate a structured plan file in `/Plans` for a task the user describes.
+Generate a structured plan file in `/Plans` for the following task: $ARGUMENTS
 
 ## Steps
 
-1. **Ask or infer** the task objective from the user's input.
+1. **Parse the task objective** from the user's input above.
 
 2. **Create a plan file** at `/Plans/PLAN_{short_description}_{date}.md` with:
    ```markdown

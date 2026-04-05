@@ -1,10 +1,3 @@
----
-name: review-vault
-description: Perform a read-only audit of the vault. Check folder contents, validate file frontmatter, review Business_Goals.md progress, and report issues.
----
-
-# Review Vault
-
 Perform a comprehensive read-only audit of the entire vault and report findings.
 
 ## Steps

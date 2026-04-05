@@ -1,11 +1,4 @@
----
-name: process-inbox
-description: Process pending items in the Needs_Action folder. Read each .md file, apply Company_Handbook.md rules, create plans or drafts, and route items appropriately.
----
-
-# Process Inbox
-
-You are the AI Employee's reasoning engine. Process all pending items in the `/Needs_Action` folder.
+Process all pending items in the `/Needs_Action` folder. You are the AI Employee's reasoning engine.
 
 ## Steps
 

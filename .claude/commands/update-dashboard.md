@@ -1,10 +1,3 @@
----
-name: update-dashboard
-description: Update Dashboard.md with current vault status. Counts files in each folder, summarizes pending actions, and shows recent activity.
----
-
-# Update Dashboard
-
 Regenerate `Dashboard.md` at the vault root with live status from the vault.
 
 ## Steps

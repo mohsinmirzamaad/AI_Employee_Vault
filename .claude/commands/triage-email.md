@@ -1,10 +1,3 @@
----
-name: triage-email
-description: Triage an email item from Needs_Action. Analyze priority, draft a reply following Company_Handbook email rules, and route to the correct folder.
----
-
-# Triage Email
-
 Process email items (`EMAIL_*.md` files) from `/Needs_Action` using the email rules in `Company_Handbook.md`.
 
 ## Steps
