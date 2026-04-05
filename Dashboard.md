@@ -1,19 +1,31 @@
+---
+type: dashboard
+last_updated: 2026-04-05T00:00:00+05:00
+---
+
 # AI Employee Dashboard
-*Last Updated: {{date}}*
 
-## 📊 Status
-- **System:** Online
-- **Active Watchers:** None
-- **Pending Actions:** 0
+## System Status
+- **Mode:** DRY_RUN (safe mode — no real actions)
+- **Last Updated:** 2026-04-05 (run `/update-dashboard` to refresh)
 
-## 📥 Inbox Summary
-_Nothing yet._
+## Folder Summary
+| Folder | Items |
+|--------|-------|
+| Inbox | 0 |
+| Needs Action | 0 |
+| Plans | 0 |
+| Pending Approval | 0 |
+| Done | 0 |
 
-## ⚡ Needs Action
-_Nothing yet._
+## Needs Attention
+Nothing pending. Drop files into `Inbox/` or run watchers to populate.
 
-## ✅ Recently Done
-_Nothing yet._
+## Awaiting Approval
+Nothing awaiting approval.
 
-## 💰 Finance Snapshot
-_Not configured yet._
+## Recent Activity
+No recent activity. Start watchers with `cd ai_employee && uv run python main.py`.
+
+## Business Goals
+Run `/review-vault` to see current quarter objectives.
